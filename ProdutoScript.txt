@@ -1,0 +1,13 @@
+﻿
+create database BDCSHARP;
+
+use BDCSHARP;
+
+create table produtos(id int primary key auto_increment, 
+ nome varchar (50), preco double);
+
+ insert into produtos values (null,'headset',3000);
+ insert into produtos values (null,'cadeira gamer',10000);
+ insert into produtos values (null,'notebook hp',8000);
+
+ select * from produtos;
